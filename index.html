@@ -16,7 +16,10 @@
 <!-- ====== TOP BAR ====== -->
 <header class="topbar">
   <a class="brand" href="https://vocesfrancas.com" aria-label="Voces Francas — Volver al sitio principal">
-    <img class="brand-logo" src="assets/logo-voces-francas.png" alt="Voces Francas" />
+    <picture>
+      <source srcset="assets/logo-voces-francas.webp" type="image/webp" />
+      <img class="brand-logo" src="assets/logo-voces-francas.png" alt="Voces Francas" decoding="async" />
+    </picture>
   </a>
   <div class="topbar-actions">
     <div class="social-buttons" aria-label="Redes sociales">
@@ -42,7 +45,10 @@
   <!-- ============== HERO / PORTADA PRINCIPAL (solo visual) ============== -->
   <section class="hero reveal" data-screen-label="01 Hero">
     <div class="hero-cover" aria-hidden="true">
-      <img src="assets/portada-principal.png" alt="" />
+      <picture>
+        <source srcset="assets/portada-principal.webp" type="image/webp" />
+        <img src="assets/portada-principal.png" alt="" fetchpriority="high" decoding="async" />
+      </picture>
     </div>
     <h1 class="hero-title">Candidatas<br />bajo <em>ciberataque</em></h1>
   </section>
@@ -133,7 +139,10 @@
       <div class="card-media">
         <span class="card-num">01</span>
         <span class="card-tag">Acoso digital</span>
-        <img src="assets/portada-1.png" alt="Mujer recibiendo mensajes ofensivos en su teléfono" />
+        <picture>
+          <source srcset="assets/portada-1.webp" type="image/webp" />
+          <img src="assets/portada-1.png" alt="Mujer recibiendo mensajes ofensivos en su teléfono" loading="lazy" decoding="async" />
+        </picture>
       </div>
       <div class="card-meta">
         <span>08 may</span>
@@ -154,7 +163,10 @@
       <div class="card-media">
         <span class="card-num">02</span>
         <span class="card-tag">Censura</span>
-        <img src="assets/portada-2.png" alt="Mujer con megáfono enfrentando ataques en redes" />
+        <picture>
+          <source srcset="assets/portada-2.webp" type="image/webp" />
+          <img src="assets/portada-2.png" alt="Mujer con megáfono enfrentando ataques en redes" loading="lazy" decoding="async" />
+        </picture>
       </div>
       <div class="card-meta">
         <span>05 may</span>
@@ -175,7 +187,10 @@
       <div class="card-media">
         <span class="card-num">03</span>
         <span class="card-tag">Amenazas</span>
-        <img src="assets/portada-3.png" alt="Mujer caminando mientras recibe mensajes anónimos" />
+        <picture>
+          <source srcset="assets/portada-3.webp" type="image/webp" />
+          <img src="assets/portada-3.png" alt="Mujer caminando mientras recibe mensajes anónimos" loading="lazy" decoding="async" />
+        </picture>
       </div>
       <div class="card-meta">
         <span>30 abr</span>
@@ -234,13 +249,22 @@
     <h3 class="allies-title" id="aliados-title">Aliados</h3>
     <div class="allies-grid">
       <div class="ally-slot ally-slot--light ally-slot--featured">
-        <img src="assets/logo-voces-francas-aliados.png" alt="Voces Francas" />
+        <picture>
+          <source srcset="assets/logo-voces-francas-aliados.webp" type="image/webp" />
+          <img src="assets/logo-voces-francas-aliados.png" alt="Voces Francas" loading="lazy" decoding="async" />
+        </picture>
       </div>
       <div class="ally-slot ally-slot--light">
-        <img src="assets/logo-colombiacheck.png" alt="Colombia Check" />
+        <picture>
+          <source srcset="assets/logo-colombiacheck.webp" type="image/webp" />
+          <img src="assets/logo-colombiacheck.png" alt="Colombia Check" loading="lazy" decoding="async" />
+        </picture>
       </div>
       <div class="ally-slot ally-slot--dark">
-        <img src="assets/logo-voragine.png" alt="Vorágine" />
+        <picture>
+          <source srcset="assets/logo-voragine.webp" type="image/webp" />
+          <img src="assets/logo-voragine.png" alt="Vorágine" loading="lazy" decoding="async" />
+        </picture>
       </div>
     </div>
   </section>

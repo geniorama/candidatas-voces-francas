@@ -202,7 +202,10 @@
 
 <header class="topbar">
   <a class="brand" href="https://vocesfrancas.com" aria-label="Voces Francas — Volver al sitio principal">
-    <img class="brand-logo" src="assets/logo-voces-francas.png" alt="Voces Francas" />
+    <picture>
+      <source srcset="assets/logo-voces-francas.webp" type="image/webp" />
+      <img class="brand-logo" src="assets/logo-voces-francas.png" alt="Voces Francas" decoding="async" />
+    </picture>
   </a>
   <div class="topbar-actions">
     <div class="social-buttons" aria-label="Redes sociales">
@@ -245,7 +248,10 @@
   </div>
 
   <div class="article-cover">
-    <img src="assets/portada-principal.png" alt="Tres mujeres candidatas rodeadas de mensajes de odio en redes" />
+    <picture>
+      <source srcset="assets/portada-principal.webp" type="image/webp" />
+      <img src="assets/portada-principal.png" alt="Tres mujeres candidatas rodeadas de mensajes de odio en redes" fetchpriority="high" decoding="async" />
+    </picture>
   </div>
 
   <article class="article-body">
