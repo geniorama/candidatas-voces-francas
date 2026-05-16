@@ -299,7 +299,7 @@ body::before {
 }
 .hero-title em {
   font-style: normal;
-  color: var(--c-magenta);
+  color: var(--c-verde);
 }
 
 .hero-meta {
